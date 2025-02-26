@@ -22,17 +22,14 @@ class _AppProviderState extends State<AppProvider> {
 
   @override
   Widget build(BuildContext context) {
-    return MultiRepositoryProvider(
-      providers: const [],
-      child: MultiBlocProvider(
-        providers: [
-          BlocProvider<OrderCubit>(
-            create: (BuildContext context) => OrderCubit.initial(),
-            lazy: false,
-          ),
-        ],
-        child: widget.child,
-      ),
+    return MultiBlocProvider(
+      providers: [
+        BlocProvider<OrderCubit>(
+          create: (BuildContext context) => OrderCubit.initial(),
+          lazy: false,
+        ),
+      ],
+      child: widget.child,
     );
   }
 }

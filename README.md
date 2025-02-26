@@ -95,7 +95,7 @@ test
 #### Mock
 Contains mock data required to perform testing
 
-##### How to execute testing
+#### How to execute testing
 Go to project root and execute the following command in console to run for unit testing:
 ```
 fvm flutter test
