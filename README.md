@@ -1,4 +1,4 @@
-# Event App
+# McDonald Order Management App
 A simple automated cooking bots app to reduce workforce and increase their efficiency. 
 Written in Flutter and designed using BLoC architecture design pattern.
 
@@ -10,7 +10,7 @@ Written in Flutter and designed using BLoC architecture design pattern.
 **Step 1:**
 Clone the repo with the link below by using git:
 ```
-git clone https://github.com/KuroXII/flutter-feedme.git
+git clone https://github.com/KuroXII/se-flutter-feedme.git
 ```
 
 **Step 2:**
